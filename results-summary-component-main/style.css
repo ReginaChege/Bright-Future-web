@@ -1,0 +1,63 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: whitesmoke;
+    border-color: #00008B;
+   
+
+}
+.result{
+    background-color: hsl(228, 72%, 44%); 
+    font-size: 11px; 
+    text-align: center;
+    width: 20%;
+    height: 300px;
+    border-radius:0px 0px 50px 50px;
+    margin-left: 30%;
+}
+#reaction{
+    background-color:#ffe3e3;
+    border-radius: 5px ;
+}
+#memory{
+    background-color:#fff3bf;
+    border-radius: 5px ;
+}
+#verbal{
+    background-color:#d0ebff;
+    border-radius: 5px ;
+    margin-left: 2px;
+}
+#visual{
+    background-color: #74c0fc;
+    border-radius: 5px ;
+}
+span{
+    margin-left: 209px;
+}
+.span{
+    margin-left: 220px;
+}
+.outof{
+    border-radius: 30px,30px,30px;
+    opacity: #339af0;
+
+}
+.sumary{
+    margin-left: 30%; 
+    width: 20%;
+    background-color: whitesmoke; 
+    margin-top: 30px;
+    border-radius: 100px;
+
+}
+#continue{
+   background-color: #00008B; 
+   padding: 2%;
+   width: 80%;
+   border-radius: 20px;
+   color: white;
+   font-size: 20px;
+}
+
+
