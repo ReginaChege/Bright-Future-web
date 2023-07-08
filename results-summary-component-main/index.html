@@ -14,17 +14,19 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <div>
+    <div class="border">
       <div class="result">
         <h1 id="heading1">Your Result</h1>
         <p id="outof">76<br>of 100</p>
         <br>
         <br>
         <h1 id="heading1">Great</h1>
-        <p>You score higher than 65% of the<br>people who have taken this test</p>
+        <p class="paragraph">You score higher than 65% of the<br>people who have taken this test</p>
       </div>
       <div class="sumary">
-        <h1 id="heading1">Sumary</h1>
+        <h1 id="heading">Sumary</h1>
+
+        <div class="summarise">
         <p id="reaction"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
             <path stroke="#F55" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
               d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z" />
@@ -47,9 +49,12 @@
             <path stroke="#1125D6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
               d="M17.5 10c-1.574 2.492-4.402 5-7.5 5s-5.926-2.508-7.5-5C4.416 7.632 6.66 5 10 5s5.584 2.632 7.5 5Z" />
           </svg>Visual <span class="span">72/ 100</span> </p>
+        </div>
+
         <button id="continue">Continue</button>
       </div>
     </div>
+    
     <script src="index.js"></script>
   </head>
 
@@ -60,6 +65,7 @@
 <br>
 <br>
 
+<div class="footer">
     Your Result
     76
     of 100
@@ -82,11 +88,14 @@
     72 / 100
 
     Continue
+  </div>
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </div>
+ 
+
   </body>
 
 </html>

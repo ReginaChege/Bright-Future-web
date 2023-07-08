@@ -1,55 +1,95 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
 body{
     background-color: whitesmoke;
-    border-color: #00008B;
-   
-
+    /* border-color: #00008B; */
+} 
+.border{
+    background-color:whitesmoke;
+    border-radius: -15px;
+    box-shadow: 1px 2px 4px rgb(68,67,67); 
+    width: 1300px;
+    height: 700px;
+    margin-left: 50px;
+    
+ } 
+ 
+ .desk{
+   display: flex;
+   /* flex-direction: column; */
+   margin-left: 20px;
 }
+.paragraph{
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+#heading1{
+    font-size: 30px;
+    margin-top: 90px;
+   color: white;
+}
+#outof{
+    /* color: white;
+    box-shadow: 2px 2px 2px  rgb(68,67,67); 
+    border-radius: 10px;
+    flex-direction: space-around; */
+    /* .outof{ */
+        border-radius: 30px,30px,30px;
+        opacity: #339af0;
+        font-size: 25px;
+    
+    /* } */
+    }
 .result{
     background-color: hsl(228, 72%, 44%); 
     font-size: 11px; 
     text-align: center;
-    width: 20%;
-    height: 300px;
-    border-radius:0px 0px 50px 50px;
+    width: 30%;
+    height: 500px;
+    border-radius:50px 50px 50px 50px;
     margin-left: 30%;
 }
 #reaction{
     background-color:#ffe3e3;
-    border-radius: 5px ;
+    border-radius: 10px ;
+    height: 20px;
+
 }
 #memory{
     background-color:#fff3bf;
     border-radius: 5px ;
-}
-#verbal{
-    background-color:#d0ebff;
+    height: 20px;
+} 
+ #verbal{
+    background-color: whitesmoke;
     border-radius: 5px ;
     margin-left: 2px;
+    height: 20px;
+
 }
 #visual{
-    background-color: #74c0fc;
+    background-color: whitesmoke;
     border-radius: 5px ;
+    height: 20px;
+
 }
 span{
-    margin-left: 209px;
+    margin-left: 200px;
 }
 .span{
     margin-left: 220px;
 }
-.outof{
-    border-radius: 30px,30px,30px;
-    opacity: #339af0;
 
-}
 .sumary{
-    margin-left: 30%; 
-    width: 20%;
+    margin-left: 60%; 
+    margin-bottom: -100%;
+    width: 30%;
     background-color: whitesmoke; 
-    margin-top: 30px;
-    border-radius: 100px;
-
+    margin-top: -450px;
+    border-radius: 10px;
+padding: 20px;
+background-color: rgb(241, 233, 233);
 }
 #continue{
    background-color: #00008B; 
@@ -58,6 +98,6 @@ span{
    border-radius: 20px;
    color: white;
    font-size: 20px;
-}
+} 
 
 
